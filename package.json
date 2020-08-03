@@ -1,15 +1,12 @@
 {
   "name": "crying-rage",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Facundo Matteo <facumatteo@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "next": "9.5.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "axios": "^0.19.2",
+    "form-data": "^3.0.0",
+    "jimp": "^0.14.0"
   }
 }
